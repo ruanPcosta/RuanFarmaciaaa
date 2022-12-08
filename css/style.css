@@ -20,10 +20,10 @@ body {
 
 
 nav{
-    width: 83%;
+    width: 96%;
     border: 9.5px groove var(--cor5ruan);
     margin: auto;
-    height: 138px;
+    height: 101px;
     position: unset;
     border-radius: 2%;
     background-color: var(--cor5ruan);
@@ -38,14 +38,14 @@ nav{
 nav > ul{
     margin: auto;
     align-content: center;
-    display: block;
+    display: flex;
     color: var(--cor5ruan);
     background-color: var(--cor5ruan);
 }
 
 nav > ul > li{
     float: left;
-    width: 300px;
+    width: 83%;
     height: 40px;
     text-align: center;
     font-size:18px;
@@ -152,4 +152,22 @@ main{
 
 .titulo{
     text-align: center;
+}
+
+.lista{
+    list-style: inside;
+}
+
+.videosR{
+    width: 658px;
+    margin: auto;
+    background-color: var(--cor6);
+    box-shadow: 9px 6px 0px var(--cor2ruan);
+}
+
+.multiR{
+    width: 1000px;
+    margin: auto;
+    border: 1px groove var(--cor5ruan);
+    box-shadow: 13px 15px 0px var(--cor6);
 }
